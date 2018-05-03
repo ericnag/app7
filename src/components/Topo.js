@@ -1,9 +1,10 @@
-import React from 'react'
-import {View, Text} from 'react-native'
+import React from 'react';
+import {View, Text} from 'react-native';
 
+import Cabecalho from './Cabecalho';
 
-export default props => (
-		<View>
- 			<Text>Topo</Text>
- 		</View>
+const Topo = props => (
+		<Cabecalho />
 );
+
+export { Topo };

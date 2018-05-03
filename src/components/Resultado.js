@@ -1,9 +1,9 @@
-import React from 'react'
-import {View, Text} from 'react-native'
+import React from 'react';
+import {View, Text} from 'react-native';
+import Visor from './Visor';
 
-
-export default props => (
-		<View>
- 			<Text>Resultado</Text>
- 		</View>
+const Resultado = props => (
+		<Visor />
 );
+
+export { Resultado };
